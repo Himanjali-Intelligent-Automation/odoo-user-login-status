@@ -26,7 +26,7 @@
     ],
     'license': 'LGPL-3',
 
-    'images':['hia_user_login_status/static/description/assets/banner.gif'],
+    'images':['static/description/assets/banner.gif'],
     
     'installable': True,
 
