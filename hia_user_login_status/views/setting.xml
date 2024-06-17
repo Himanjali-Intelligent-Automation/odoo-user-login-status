@@ -11,7 +11,7 @@
                 <app data-string="User Logs" string="User Login System" name="login info" logo="hia_user_login_status/static/description/icon.png">
                     <block title="User Login System">
                         <setting string="Store User Session Activity Log" help="storing Activity Logs">
-                            <field name="store_user_time"/>
+                            <field name="store_user_time" function="ir.config_parameter.set_param" eval="('hia_user_login_status.store_user_time', True)" />
                         </setting>
                     </block>
                 </app>
